@@ -166,7 +166,7 @@ h3 {
 
 /* Button */
 
-button {
+.button_custom {
   border-radius: 0.3rem;
   padding: 0.4rem;
   border: none;
@@ -178,16 +178,16 @@ button {
   pointer-events: auto;
 }
 
-button:hover {
+.button_custom:hover {
   transform: translate(0px, -4px);
 }
 
-button:active {
+.button_custom:active {
   transform: scale(90%);
 }
 
 @media (min-width: 640px) {
-  button {
+  .button_custom {
     padding: 0.6rem;
   }
 }
